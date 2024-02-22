@@ -4,7 +4,7 @@ const productRoutes = require('./routes/productRoutes');
 const productController = require('./controllers/productController');
 
 const app = express();
-const port = 4000;
+const port = 8080;
 
 app.use(bodyParser.json());
 
